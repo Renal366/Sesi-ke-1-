@@ -1,0 +1,14 @@
+umur = int(input("Masukan umur anda :"))
+
+if umur <=2 :
+    print(" anda adalah bayi" )
+elif umur <=5 :
+    print("anda adalah balita" )
+elif umur <=7:
+    print("anda adalah anak - anak" )
+elif umur <=10 :
+    print(" anda adalah remaja" )
+elif umur > 16:
+    print(" anda adalah dewasa" )
+else:
+    print(" anda adalah orang tua", umur > 40)
