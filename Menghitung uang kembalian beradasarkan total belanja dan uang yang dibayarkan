@@ -1,0 +1,4 @@
+uang_yang_dibayarkan = float(input("Masukkan uang yang dibayarkan: "))
+total_belanja = float(input("Masukkan total belanja: "))
+uang_kembalian = uang_yang_dibayarkan - total_belanja
+print("Uang kembalian yang akan diterima adalah: ", uang_kembalian)
